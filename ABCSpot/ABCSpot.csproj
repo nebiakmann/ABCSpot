@@ -232,5 +232,8 @@
   <ItemGroup>
     <None Include="Resources\money-remove.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="sql_scripts.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

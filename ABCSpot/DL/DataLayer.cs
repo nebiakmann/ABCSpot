@@ -14,10 +14,10 @@ namespace ABCSpot.DL
         static MySqlConnection conn = new MySqlConnection(
             new MySqlConnectionStringBuilder()
             {
-                Server = "78.135.82.146",
-                Database = "ortak_db",
-                UserID = "ortak",
-                Password = "ortak",
+                Server = "localhost", // kendi server IP'niz
+                Database = "abc_spot",    // veri tabanı adı
+                UserID = "user1",
+                Password = "WfnXy123",
 
             }.ConnectionString
          );
